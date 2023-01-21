@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: rgb(197, 191, 191);
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+img{
+  width: 70px;
+  height: 70px;
+  border-radius:360% ;
+  margin-left: 30px;
+}
+.nav{
+  padding-top: 30px;
+  padding-right: 30px;
+  padding: 30px ;
+  margin: 0;
+    
+   border-radius:15px ;
+   display: flex;
+    
+    
+   margin-right: 4px;
+
+  
+}
+.nav:hover{
+  box-shadow:  0 5px 25px  red;
+}
+.nav a{
+  text-decoration: none;
+   
+   font-weight: bold;
+   font-style: italic;
+   text-transform: uppercase;
+   padding-left: 20px;
+   background-color: rgb(17, 43, 187);
+   border-radius: 12px;
+   padding: 15px;
+   color: aliceblue;
+   transition: 0.7s ease;
+    
+   
+
+}
+.nav a:hover{
+  color: blueviolet;
+  
+  
+   
+   
+}
+ .main{
+  padding: 200px  200px;
+  display: flex;
+  align-items: center;  
+  display: block; 
+  background: url(3129492.jpg  ) no-repeat;
+  background-size: cover;
+   
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100vh;
+  
+ 
+}
+#regarde {
+  background-color: blue;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 10px ;
+  border-radius: 20px;
+  transition: 2s;
+  color: antiquewhite;
+  font-weight: 700;
+  
+
+}
+.cl{
+  display: inline;
+}
+#regarde:hover{
+  transform: scale(1.1);
+}
+.serch{
+  margin-top: 40px;
+}
+#h1{
+  font-size: 50px ;
+  word-spacing:3px ;
+
+}
+.kl a{
+  color: blue;
+  padding-left: 20px;
+  font-size: larger;
+   
+}
+.tout{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.st{
+  width: 25%;
+  box-shadow: 0 5px 25px red;
+}
+.rt{
+  display: flex;
+  justify-content: center;
+  color: cadetblue;
+  font-weight: 600;
+  font-size: 50px;
+}
+.am{
+  display: flex;
+  justify-content: center;
+   
+  font-weight: 600;
+  font-size: 20px;
+
+}
+.stu{
+  color: cadetblue;
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
